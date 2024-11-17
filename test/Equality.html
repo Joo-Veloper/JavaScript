@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighbour Borders</title>
+</head>
+<body>
+    <h1>Neighbour Borders Checker</h1>
+    <script>
+        const numNeighbours = Number(
+            prompt("How many neighbour countries does your country have?")
+        );
+
+        if (numNeighbours === 1) {
+            console.log("Only 1 border!");
+        } else if (numNeighbours > 1) {
+            console.log("More than 1 border");
+        } else {
+            console.log("No borders");
+        }
+    </script>
+</body>
+</html>
