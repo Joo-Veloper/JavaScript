@@ -62,3 +62,13 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+
+let age = 31;
+
+// const birthYear = 2024;
+// birthYear = 1990;
+
+var job = "programmer";
+job = "teacher";
+lastName = "Schmedtmann";
+console.log(lastName);
