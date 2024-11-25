@@ -74,29 +74,43 @@ lastName = "Schmedtmann";
 console.log(lastName);
 
 // Operators
+// const now = 2037;
+// const ageJonas = now - 1990;
+// const ageSara = now - 2018;
+// console.log(ageJonas, ageSara);
+
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// // 2**3 means 2 the power of 3=2*2*2
+// const firstName1 = "Java";
+// const lastName1 = "Script";
+// console.log(firstName1 + " " + lastName1);
+
+// //Assignment operators
+// let x = 10 + 5;
+// x += 10;
+// x *= 4;
+// x++;
+// x--;
+// x--;
+// console.log(x);
+
+// //Comparions operators
+// console.log(ageJonas > ageSara);
+// console.log(ageSara >= 19);
+
+// const isFullAge = ageSara >= 18;
+// console.log(now - 1991 > now - 2018);
+
 const now = 2037;
 const ageJonas = now - 1990;
 const ageSara = now - 2018;
-console.log(ageJonas, ageSara);
 
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
-// 2**3 means 2 the power of 3=2*2*2
-const firstName1 = "Java";
-const lastName1 = "Script";
-console.log(firstName1 + " " + lastName1);
-
-//Assignment operators
-let x = 10 + 5;
-x += 10;
-x *= 4;
-x++;
-x--;
-x--;
-console.log(x);
-
-//Comparions operators
-console.log(ageJonas > ageSara);
-console.log(ageSara >= 19);
-
-const isFullAge = ageSara >= 18;
 console.log(now - 1991 > now - 2018);
+
+console.log(25 - 10 - 5);
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = ageJonas + ageSara / 2;
+console.log(ageJonas, ageSara, averageAge);
